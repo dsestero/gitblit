@@ -21,7 +21,7 @@
   "issues_url": "https://github.com/dsestero/gitblit/issues",
   "source": "https://github.com/dsestero/gitblit.git",
   "requirements": [{"name": "puppet", "version_requirement": "3.x"}],
-  "summary": "Installs the Jetty app server then download and install the distribution of gitblit war setting up the file system and the system user running the gitblit service",
+  "summary": "This Puppet module manages Gitblit (http://gitblit.com/)",
   "tags": ["git", "gitblit", "git_frontend", "scm", "version_control"],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

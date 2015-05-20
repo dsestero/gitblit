@@ -27,7 +27,7 @@ class gitblit::install ($distribution_url) {
   download_uncompress { 'install_gitblit':
     distribution_name => $distribution_url,
     dest_folder       => '/var/lib/jetty/webapps/gitblit',
-    creates           => "/var/lib/jetty/webapps/gitblit/WEB-INF",
+    creates           => '/var/lib/jetty/webapps/gitblit/WEB-INF',
     uncompress        => 'zip',
     user              => root,
     group             => root,
