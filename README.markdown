@@ -68,9 +68,9 @@ To install the Gitblit service listening on port 9090 and hosting the git reposi
 ###Private Classes
 
 * [`gitblit::params`](#gitblitparams): Specifies the module defaults
-* [`gitblit::install`](#gitblitparams): Specifies the module defaults
-* [`gitblit::config`](#gitblitparams): Specifies the module defaults
-* [`gitblit::service`](#gitblitparams): Specifies the module defaults
+* [`gitblit::install`](#gitblitparams): Installs the module artifacts
+* [`gitblit::config`](#gitblitparams): Configures the module artifacts
+* [`gitblit::service`](#gitblitparams): Sets up the service
 
 ###`gitblit::gitblit`
 Installs, configure and sets up a gitblit service.

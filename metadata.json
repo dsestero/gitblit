@@ -23,5 +23,5 @@
   "requirements": [{"name": "puppet", "version_requirement": "3.x"}],
   "summary": "This Puppet module manages Gitblit (http://gitblit.com/)",
   "tags": ["git", "gitblit", "git_frontend", "scm", "version_control"],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
