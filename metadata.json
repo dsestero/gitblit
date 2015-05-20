@@ -1,0 +1,27 @@
+{
+  "author": "Dario Sestero",
+  "name": "dsestero-gitblit",
+  "dependencies": [    {
+      "name": "dsestero/download_uncompress",
+      "version_requirement": "1.x"
+    },
+    {
+      "name": "dsestero/java",
+      "version_requirement": "1.x"
+    }
+  ],
+  "license": "Apache-2.0",
+  "operatingsystem_support": [
+      {
+          "operatingsystem": "Ubuntu",
+          "operatingsystemrelease": ["12.04"]
+      }
+  ],
+  "project_page": "https://github.com/dsestero/gitblit",
+  "issues_url": "https://github.com/dsestero/gitblit/issues",
+  "source": "https://github.com/dsestero/gitblit.git",
+  "requirements": [{"name": "puppet", "version_requirement": "3.x"}],
+  "summary": "Installs the Jetty app server then download and install the distribution of gitblit war setting up the file system and the system user running the gitblit service",
+  "tags": ["git", "gitblit", "git_frontend", "scm", "version_control"],
+  "version": "1.0.0"
+}
