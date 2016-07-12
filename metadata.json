@@ -20,8 +20,8 @@
   "project_page": "https://github.com/dsestero/gitblit",
   "issues_url": "https://github.com/dsestero/gitblit/issues",
   "source": "https://github.com/dsestero/gitblit.git",
-  "requirements": [{"name": "puppet", "version_requirement": "3.x"}],
+  "requirements": [{"name": "puppet", "version_requirement": ">= 3.0.0"}],
   "summary": "This Puppet module manages Gitblit (http://gitblit.com/)",
   "tags": ["git", "gitblit", "git_frontend", "scm", "version_control"],
-  "version": "1.0.2"
+  "version": "1.0.3"
 }

@@ -1,3 +1,7 @@
+##2015-07-12 - Release - 1.0.3
+###Summary
+Bump version number after testing with Puppet 4.
+
 ##2015-05-20 - Release - 1.0.2
 ###Summary
 Fixed a little error in the README.markdown documentation.
